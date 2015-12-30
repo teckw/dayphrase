@@ -1,0 +1,37 @@
+{
+  "manifest_version": 2,
+
+  "name": "Day Phrase",
+
+  "description": "Helps user learn a new language!",
+
+  "version": "1.0",
+
+  // "icons":{
+  //   "16": "./images/twitter_icon.png",
+  //   "32": "./images/twitter_icon.png",
+  //   "64": "./images/twitter_icon.png",
+  //   "128": "./images/twitter_icon.png"
+
+  // },
+
+  "background":{
+    "scripts":["./scripts/background.js"]
+    // "persistent" : false
+    //persistant false switches the extension to an inactive state when it is not in use. this is important to improve speed by reducing memory usage
+  },
+
+  "chrome_url_overrides":{
+    "newtab": "./bootstrap_template/index.html"
+  },
+
+  "permissions":[
+    "contextMenus"
+  ]
+
+}
+
+
+
+
+
