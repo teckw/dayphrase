@@ -18,7 +18,7 @@ module.exports = function(passport){
 		passwordField: 'password',
 		passReqToCallback: true
 	},
-	function(req, email, password, done){
+	function (req, email, password, done){
 		process.nextTick(function(){
 			User.findOne({'local.username':email}, function(err, user){
 				if (err)
@@ -45,7 +45,7 @@ module.exports = function(passport){
 		passwordField: 'password',
 		passReqToCallback: true
 	},
-	function(req, email, password, done){
+	function (req, email, password, done){
 		process.nextTick(function(){
 			User.findOne({"local.username": email}, function(err, user){
 				if(err)

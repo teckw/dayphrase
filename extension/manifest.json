@@ -18,7 +18,7 @@
   "background":{
     "scripts":["./scripts/background.js"]
     // "persistent" : false
-    //persistant false switches the extension to an inactive state when it is not in use. this is important to improve speed by reducing memory usage
+    //persistant false switches the egit xtension to an inactive state when it is not in use. this is important to improve speed by reducing memory usage
   },
 
   "chrome_url_overrides":{
